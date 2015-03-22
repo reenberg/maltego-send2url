@@ -1,0 +1,5 @@
+Prerequisites:
+
+    You will need to install the following python modules:
+    * termcolor: In order to print pretty output.
+    * lxml: In order to do XML operations.
