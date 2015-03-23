@@ -1,5 +1,15 @@
+Crude app that will generate send2url transforms and add them to an .mtz file
+for importing into Maltego.
+
+
 Prerequisites:
 
     You will need to install the following python modules:
     * termcolor: In order to print pretty output.
     * lxml: In order to do XML operations.
+
+
+TODO:
+  * Handle no input file.
+  * Output to stdout
+  * Update the input .mtz file instead of writing an output file
