@@ -41,9 +41,7 @@ generate a bunch of files.
 DOT_TRANSFORM = """
 <MaltegoTransform name="$nameprefix.transform.$name" displayName="$displayname" abstract="false" template="false"
                   visibility="public" description="$desc" author="$author" requireDisplayInfo="false">
-    <TransformAdapter>
-        com.paterva.maltego.transform.runner.test.JavaTransformAdapter
-    </TransformAdapter>
+    <TransformAdapter>com.paterva.maltego.transform.runner.test.JavaTransformAdapter</TransformAdapter>
     <Properties>
         <Fields>
             <Property name="url" type="string" nullable="false" hidden="false" readonly="false"
